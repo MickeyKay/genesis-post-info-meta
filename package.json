@@ -1,0 +1,22 @@
+{
+  "title": "Genesis Post Info & Meta",
+  "description": "Choose where to show/hide post info and meta for Genesis themes.",
+  "version": "1.0.0",
+  "homepage": "http://wordpress.org/plugins/genesis-post-info-meta",
+  "author": {
+    "name": "MIGHTYminnow Web Studio & School",
+    "email": "info@mightyminnow.com",
+    "url": "http://mightyminnow.com"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "load-grunt-tasks": "latest",
+    "grunt-dev-update": "latest",
+    "grunt-prompt": "latest",
+    "grunt-text-replace": "latest",
+    "grunt-wp-i18n": "latest",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-compress": "latest"
+  },
+  "keywords": []
+}
