@@ -151,7 +151,10 @@ class Genesis_Post_Info_Meta_Admin {
 		$user_id = $current_user->ID;
 
 		// Check that the user hasn't already clicked to ignore the message.
-		if ( ! get_user_meta( $user_id, 'gpim_notice_ignore' ) ) {
+		if ( get_user_meta( $user_id, 'gpim_notice_ignore' ) ) {
+
+			// Enqueue admin styles for notice.
+			wp_enqueue_style( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'css/genesis-post-info-meta-admin.css', array(), $this->version, 'all' );
 
 			$notice_message = '<a href="' . $this->Mm_url . '" target="_blank" class="logo-link"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 					viewBox="0 0 118.475 74.194" enable-background="new 0 0 118.475 74.194" xml:space="preserve">

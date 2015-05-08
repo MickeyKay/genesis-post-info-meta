@@ -2,3 +2,24 @@
  * All of the CSS for your dashboard-specific functionality should be
  * included in this file.
  */
+
+/* Admin notice */
+.mm-notice svg {
+	float: right;
+	width: 120px;
+	max-width: 30%;
+	margin: 20px 0 40px 40px;
+}
+
+.mm-notice svg path {
+	fill: #333;
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+}
+
+.mm-notice a:hover svg path {
+	fill: #555;
+}
