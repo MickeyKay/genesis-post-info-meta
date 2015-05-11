@@ -82,7 +82,8 @@ module.exports = function( grunt ) {
 			svnAssets: {
 				cwd: 'assets/',
 				src: ['**'],
-				dest: 'svn/assets',
+				dest: 'svn/assets/',
+				expand: true,
 			},
 			svnTrunk: {
 				src:  [
@@ -110,6 +111,7 @@ module.exports = function( grunt ) {
 				cwd:  'svn/trunk/',
 				src: ['**'],
 				dest: 'svn/tags/<%= newVersion %>/',
+				expand: true,
 			}
 		}
 	} );
