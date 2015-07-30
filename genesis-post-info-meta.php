@@ -16,7 +16,7 @@
  * Plugin Name:       Genesis Post Info & Meta
  * Plugin URI:        http://wordpress.org/plugins/genesis-post-info-meta
  * Description:       Choose where to show/hide post info and meta for Genesis themes.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            MIGHTYminnow Web Studio & School
  * Author URI:        http://mightyminnow.com/plugin-landing-page?utm_source=genesis-post-info-meta&utm_medium=plugin-repo&utm_campaign=WordPress%20Plugins
  * License:           GPL-2.0+

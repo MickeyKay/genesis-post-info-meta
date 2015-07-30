@@ -121,8 +121,8 @@ class Genesis_Post_Info_Meta_Public {
 		// Single
 		if ( is_singular() ) {
 
-			$show_info = $plugin_option[ $post_type . '_info_single' ];
-			$show_meta = $plugin_option[ $post_type . '_meta_single' ];
+			$show_info = isset( $plugin_option[ $post_type . '_info_single' ] ) ? $plugin_option[ $post_type . '_info_single' ] : '';
+			$show_meta = isset( $plugin_option[ $post_type . '_meta_single' ] ) ? $plugin_option[ $post_type . '_meta_single' ] : '';
 
 			// Post Info
 			if ( ! $show_info ) {
@@ -139,8 +139,8 @@ class Genesis_Post_Info_Meta_Public {
 		// Archive
 		if ( ! is_singular() ) {
 
-			$show_info = $plugin_option[ $post_type . '_info_archive' ];
-			$show_meta = $plugin_option[ $post_type . '_meta_archive' ];
+			$show_info = isset( $plugin_option[ $post_type . '_info_archive' ] ) ? $plugin_option[ $post_type . '_info_archive' ] : '';
+			$show_meta = isset( $plugin_option[ $post_type . '_meta_archive' ] ) ? $plugin_option[ $post_type . '_meta_archive' ] : '';
 
 			// Post Info
 			if ( ! $show_info ) {

@@ -189,11 +189,16 @@ class Genesis_Post_Info_Meta {
 
 		$plugin_admin = Genesis_Post_Info_Meta_Admin::get_instance( $this );
 
+		$this->loader->add_action( 'init', $plugin_admin, 'do_setup' );
+
 		// Add functionality to dismiss notice.
 		$this->loader->add_action( 'admin_init', $plugin_admin, 'dismiss_notice' );
 
 		// Add functionality to dismiss notice.
 		$this->loader->add_action( 'admin_notices', $plugin_admin, 'admin_notices' );
+
+		// Add functionality to dismiss notice.
+		$this->loader->add_action( 'admin_menu', $plugin_admin, 'add_menu_item' );
 
 		// Register customizer settings and controls.
 		$this->loader->add_action( 'customize_register', $plugin_admin, 'register_customizer_controls' );

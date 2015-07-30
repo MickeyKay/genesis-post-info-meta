@@ -68,6 +68,15 @@ class Genesis_Post_Info_Meta_Admin {
 	private $Mm_url;
 
 	/**
+	 * Specific customizer URL
+	 *
+	 * @since    1.0.0
+	 * @access   private
+	 * @var      string    $Mm_url    URL to link to MIGHTYminnow site.
+	 */
+	private $customizer_url;
+
+	/**
 	 * The instance of this class.
 	 *
 	 * @since    1.0.0
@@ -104,7 +113,22 @@ class Genesis_Post_Info_Meta_Admin {
 		$this->plugin_slug = $this->plugin->get( 'slug' );
 		$this->plugin_name = $this->plugin->get( 'name' );
 		$this->version = $this->plugin->get( 'version' );
+
+	}
+
+	/**
+	 * Do setup that needs to happen on/after init.
+	 *
+	 * @since 1.1.0
+	 */
+	public function do_setup() {
+
+		// Set up customizer url.
 		$this->Mm_url = '//mightyminnow.com/plugin-landing-page?utm_source=' . $this->plugin_slug . '&utm_medium=plugin&utm_campaign=WordPress%20Plugins';
+		$this->customizer_url = get_admin_url( null, 'customize.php?autofocus[panel]=' . $this->plugin_slug );
+		if ( get_option( 'page_for_posts' ) ) {
+			$this->customizer_url .= '&url=' . get_permalink( get_option( 'page_for_posts' ) );
+		}
 
 	}
 
@@ -151,13 +175,13 @@ class Genesis_Post_Info_Meta_Admin {
 		$user_id = $current_user->ID;
 
 		// Check that the user hasn't already clicked to ignore the message.
-		if ( get_user_meta( $user_id, 'gpim_notice_ignore' ) ) {
+		if ( ! get_user_meta( $user_id, 'gpim_notice_ignore' ) ) {
 
 			// Enqueue admin styles for notice.
 			wp_enqueue_style( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'css/genesis-post-info-meta-admin.css', array(), $this->version, 'all' );
 
 			$notice_message = '<a href="' . $this->Mm_url . '" target="_blank" class="logo-link"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-					viewBox="0 0 118.475 74.194" enable-background="new 0 0 118.475 74.194" xml:space="preserve">
+					viewBox="0 0 118.475 74.194" enable-background="new 0 0 118.475 74.194" xml:space="preserve" style="width: 120px;">
 					<g>
 					<path fill="#231F20" d="M57.613,1.073v58.129H46.237V41.016c0-12.206,0.415-20.594,0.332-20.594h-0.083
 					c-0.083,0-4.152,7.142-5.148,8.803L29.24,47.404L17.256,29.225c-1.08-1.662-5.148-8.803-5.232-8.803h-0.083
@@ -356,9 +380,10 @@ class Genesis_Post_Info_Meta_Admin {
 					</svg></a>';
 
 			$notice_message .= '<h4>' . esc_html__( 'Thank you for activating Genesis Post Info & Meta!', 'genesis-post-info-meta' ) . '</h4>';
-			$notice_message .= '<p>' . sprintf( esc_html__( 'Post info & meta output can now be controlled via the %sCustomizer%s.', 'genesis-post-info-meta' ), '<b><a href="' . get_admin_url( null, 'customize.php?autofocus[panel]=' . $this->plugin_slug ) . '">', '<a/></b>' ) . '</p>';
-			$notice_message .= '<p>' . sprintf( esc_html__( '%sMIGHTYminnow Plugins%s', 'genesis-post-info-meta' ), '<a href="' . $this->Mm_url . '">', '<a/> | ' );
-			$notice_message .= sprintf( esc_html__( '%sDismiss Notice%s', 'genesis-post-info-meta' ), '<a href="?gpim_notice_ignore=0">', '<a/></p>' );
+			$notice_message .= '<p>' . sprintf( esc_html__( 'Post info & meta output can now be controlled via the %sCustomizer%s.', 'genesis-post-info-meta' ), '<b><a href="' . $this->customizer_url . '">', '</a></b>' );
+			$notice_message .= ' ' . sprintf( esc_html__( 'If you like this plugin, we always appreciate a %sfriendly review%s.', 'genesis-post-info-meta' ), '<b><a href="https://wordpress.org/support/view/plugin-reviews/genesis-post-info-meta" target="_blank">', '</a></b>' ) . '</p>';
+			$notice_message .= '<p>' . sprintf( esc_html__( '%sMIGHTYminnow Plugins%s', 'genesis-post-info-meta' ), '<a href="' . $this->Mm_url . '">', '</a> | ' );
+			$notice_message .= sprintf( esc_html__( '%sDismiss Notice%s', 'genesis-post-info-meta' ), '<a href="' . add_query_arg( 'gpim_notice_ignore', 0, $_SERVER['REQUEST_URI'] ) . '">', '</a></p>' );
 
 			echo '<div class="updated mm-notice">' . $notice_message . '</div>';
 
@@ -385,6 +410,16 @@ class Genesis_Post_Info_Meta_Admin {
 
 		}
 
+	}
+
+	/**
+	 * Add custom menu item to customizer view.
+	 *
+	 * @since 1.1.0
+	 */
+	public function add_menu_item() {
+		global $submenu;
+	    $submenu['options-general.php'][] = array( $this->plugin_name, 'manage_options', $this->customizer_url );
 	}
 
 	/**
