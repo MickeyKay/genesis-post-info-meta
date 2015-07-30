@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Genesis Post Info & Meta 1.1.0\n"
 "Report-Msgid-Bugs-To: "
 "http://wordpress.org/support/plugin/genesis-post-info-meta\n"
-"POT-Creation-Date: 2015-07-30 06:14:18+00:00\n"
+"POT-Creation-Date: 2015-07-30 06:16:21+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,15 +19,7 @@ msgstr ""
 #: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:358
 #: svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:358
 #: svn/tags/1.1.0/admin/class-genesis-post-info-meta-admin.php:382
-#: svn/tags/1.1.0/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:358
-#: svn/tags/1.1.0/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:358
-#: svn/tags/1.1.0/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:358
-#: svn/tags/1.1.0/svn/trunk/admin/class-genesis-post-info-meta-admin.php:382
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:382
-#: svn/trunk/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:358
-#: svn/trunk/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:358
-#: svn/trunk/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:358
-#: svn/trunk/svn/trunk/admin/class-genesis-post-info-meta-admin.php:382
 msgid "Thank you for activating Genesis Post Info & Meta!"
 msgstr ""
 
@@ -36,15 +28,7 @@ msgstr ""
 #: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:359
 #: svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:359
 #: svn/tags/1.1.0/admin/class-genesis-post-info-meta-admin.php:383
-#: svn/tags/1.1.0/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:359
-#: svn/tags/1.1.0/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:359
-#: svn/tags/1.1.0/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:359
-#: svn/tags/1.1.0/svn/trunk/admin/class-genesis-post-info-meta-admin.php:383
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:383
-#: svn/trunk/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:359
-#: svn/trunk/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:359
-#: svn/trunk/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:359
-#: svn/trunk/svn/trunk/admin/class-genesis-post-info-meta-admin.php:383
 msgid "Post info & meta output can now be controlled via the %sCustomizer%s."
 msgstr ""
 
@@ -52,13 +36,7 @@ msgstr ""
 #: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:360
 #: svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:360
 #: svn/tags/1.1.0/admin/class-genesis-post-info-meta-admin.php:384
-#: svn/tags/1.1.0/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:360
-#: svn/tags/1.1.0/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:360
-#: svn/tags/1.1.0/svn/trunk/admin/class-genesis-post-info-meta-admin.php:384
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:384
-#: svn/trunk/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:360
-#: svn/trunk/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:360
-#: svn/trunk/svn/trunk/admin/class-genesis-post-info-meta-admin.php:384
 msgid "If you like this plugin, we always appreciate a %sfriendly review%s."
 msgstr ""
 
@@ -67,15 +45,7 @@ msgstr ""
 #: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:361
 #: svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:361
 #: svn/tags/1.1.0/admin/class-genesis-post-info-meta-admin.php:385
-#: svn/tags/1.1.0/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:360
-#: svn/tags/1.1.0/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:361
-#: svn/tags/1.1.0/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:361
-#: svn/tags/1.1.0/svn/trunk/admin/class-genesis-post-info-meta-admin.php:385
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:385
-#: svn/trunk/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:360
-#: svn/trunk/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:361
-#: svn/trunk/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:361
-#: svn/trunk/svn/trunk/admin/class-genesis-post-info-meta-admin.php:385
 msgid "%sMIGHTYminnow Plugins%s"
 msgstr ""
 
@@ -84,15 +54,7 @@ msgstr ""
 #: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:362
 #: svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:362
 #: svn/tags/1.1.0/admin/class-genesis-post-info-meta-admin.php:386
-#: svn/tags/1.1.0/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:361
-#: svn/tags/1.1.0/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:362
-#: svn/tags/1.1.0/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:362
-#: svn/tags/1.1.0/svn/trunk/admin/class-genesis-post-info-meta-admin.php:386
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:386
-#: svn/trunk/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:361
-#: svn/trunk/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:362
-#: svn/trunk/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:362
-#: svn/trunk/svn/trunk/admin/class-genesis-post-info-meta-admin.php:386
 msgid "%sDismiss Notice%s"
 msgstr ""
 
@@ -101,15 +63,7 @@ msgstr ""
 #: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:379
 #: svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:379
 #: svn/tags/1.1.0/admin/class-genesis-post-info-meta-admin.php:403
-#: svn/tags/1.1.0/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:378
-#: svn/tags/1.1.0/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:379
-#: svn/tags/1.1.0/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:379
-#: svn/tags/1.1.0/svn/trunk/admin/class-genesis-post-info-meta-admin.php:403
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:403
-#: svn/trunk/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:378
-#: svn/trunk/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:379
-#: svn/trunk/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:379
-#: svn/trunk/svn/trunk/admin/class-genesis-post-info-meta-admin.php:403
 msgid ""
 "%s This plugin requires the Genesis Framework to function properly. Please "
 "%sactivate a Genesis theme%s to use this plugin."
@@ -120,15 +74,7 @@ msgstr ""
 #: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:440
 #: svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:440
 #: svn/tags/1.1.0/admin/class-genesis-post-info-meta-admin.php:474
-#: svn/tags/1.1.0/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:439
-#: svn/tags/1.1.0/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:440
-#: svn/tags/1.1.0/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:440
-#: svn/tags/1.1.0/svn/trunk/admin/class-genesis-post-info-meta-admin.php:474
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:474
-#: svn/trunk/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:439
-#: svn/trunk/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:440
-#: svn/trunk/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:440
-#: svn/trunk/svn/trunk/admin/class-genesis-post-info-meta-admin.php:474
 msgid "Choose where to display post info and meta."
 msgstr ""
 
@@ -137,15 +83,7 @@ msgstr ""
 #: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:446
 #: svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:446
 #: svn/tags/1.1.0/admin/class-genesis-post-info-meta-admin.php:480
-#: svn/tags/1.1.0/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:445
-#: svn/tags/1.1.0/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:446
-#: svn/tags/1.1.0/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:446
-#: svn/tags/1.1.0/svn/trunk/admin/class-genesis-post-info-meta-admin.php:480
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:480
-#: svn/trunk/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:445
-#: svn/trunk/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:446
-#: svn/trunk/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:446
-#: svn/trunk/svn/trunk/admin/class-genesis-post-info-meta-admin.php:480
 msgid "Post Info"
 msgstr ""
 
@@ -154,15 +92,7 @@ msgstr ""
 #: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:447
 #: svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:447
 #: svn/tags/1.1.0/admin/class-genesis-post-info-meta-admin.php:481
-#: svn/tags/1.1.0/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:446
-#: svn/tags/1.1.0/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:447
-#: svn/tags/1.1.0/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:447
-#: svn/tags/1.1.0/svn/trunk/admin/class-genesis-post-info-meta-admin.php:481
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:481
-#: svn/trunk/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:446
-#: svn/trunk/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:447
-#: svn/trunk/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:447
-#: svn/trunk/svn/trunk/admin/class-genesis-post-info-meta-admin.php:481
 msgid "Post Meta"
 msgstr ""
 
@@ -171,15 +101,7 @@ msgstr ""
 #: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:467
 #: svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:467
 #: svn/tags/1.1.0/admin/class-genesis-post-info-meta-admin.php:501
-#: svn/tags/1.1.0/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:466
-#: svn/tags/1.1.0/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:467
-#: svn/tags/1.1.0/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:467
-#: svn/tags/1.1.0/svn/trunk/admin/class-genesis-post-info-meta-admin.php:501
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:501
-#: svn/trunk/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:466
-#: svn/trunk/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:467
-#: svn/trunk/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:467
-#: svn/trunk/svn/trunk/admin/class-genesis-post-info-meta-admin.php:501
 msgid "Check the boxes next to the post types for which you wish to show %s."
 msgstr ""
 
@@ -188,15 +110,7 @@ msgstr ""
 #: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:507
 #: svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:507
 #: svn/tags/1.1.0/admin/class-genesis-post-info-meta-admin.php:541
-#: svn/tags/1.1.0/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:506
-#: svn/tags/1.1.0/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:507
-#: svn/tags/1.1.0/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:507
-#: svn/tags/1.1.0/svn/trunk/admin/class-genesis-post-info-meta-admin.php:541
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:541
-#: svn/trunk/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:506
-#: svn/trunk/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:507
-#: svn/trunk/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:507
-#: svn/trunk/svn/trunk/admin/class-genesis-post-info-meta-admin.php:541
 msgid "Single"
 msgstr ""
 
@@ -205,15 +119,7 @@ msgstr ""
 #: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:508
 #: svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:508
 #: svn/tags/1.1.0/admin/class-genesis-post-info-meta-admin.php:542
-#: svn/tags/1.1.0/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:507
-#: svn/tags/1.1.0/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:508
-#: svn/tags/1.1.0/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:508
-#: svn/tags/1.1.0/svn/trunk/admin/class-genesis-post-info-meta-admin.php:542
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:542
-#: svn/trunk/svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:507
-#: svn/trunk/svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:508
-#: svn/trunk/svn/tags/1.0.2/admin/class-genesis-post-info-meta-admin.php:508
-#: svn/trunk/svn/trunk/admin/class-genesis-post-info-meta-admin.php:542
 msgid "Archive"
 msgstr ""
 
